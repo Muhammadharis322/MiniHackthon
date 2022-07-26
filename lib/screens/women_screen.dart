@@ -14,50 +14,80 @@ class _WomenScreenState extends State<WomenScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffE5E5E5),
+      backgroundColor: Color(0xfffbfbfc),
       body: SingleChildScrollView(
           child: Center(
         child: Column(
           children: [
-            PostWidget(
-              "assets/images/avatar.png", 
-              "Sandy Williams", 
-              PicWidget(170, 186, "assets/images/girlpic.png"), 
+            Container(
+              height: 417,
+              width: 350,
+              decoration: BoxDecoration(
+                color: Color(0xffFFFFFF),
+              ),
+              child: PostWidget(
+                "assets/images/avatar.png", 
+                "Sandy Williams", 
+                PicWidget(170, 186, "assets/images/girlpic.png"), 
+                PicWidget(84, 57, "assets/images/1.png"), 
+                PicWidget(84, 57, "assets/images/2.png"),
+                PicWidget(84, 57, "assets/images/3.png"),
+                PicWidget(84, 57, "assets/images/4.png"),
+                ),
+            ),
+              SizedBox(height: 18,),
+              Container(
+                 height: 417,
+              width: 350,
+              decoration: BoxDecoration(
+                color: Color(0xffFFFFFF),
+              ),
+                child: PostWidget(
+                  "assets/images/avater2.png", 
+                  "Alero Samuel",
+                   PicWidget(170, 186, "assets/images/girlpic.png"), 
+                PicWidget(84, 57, "assets/images/1.png"), 
+                PicWidget(84, 57, "assets/images/2.png"),
+                PicWidget(84, 57, "assets/images/3.png"),
+                PicWidget(84, 57, "assets/images/4.png"),
+                ),
+              ),
+              SizedBox(height: 18,),
+              Container(
+                 height: 417,
+              width: 350
+              ,
+              decoration: BoxDecoration(
+                color: Color(0xffFFFFFF),
+              ),
+                child: PostWidget(
+                "assets/images/avatar.png", 
+                "Sandy Williams", 
+                PicWidget(170, 186, "assets/images/girlpic.png"), 
+                PicWidget(84, 57, "assets/images/1.png"), 
+                PicWidget(84, 57, "assets/images/2.png"),
+                PicWidget(84, 57, "assets/images/3.png"),
+                PicWidget(84, 57, "assets/images/4.png"),
+                ),
+              ),
+              SizedBox(height: 18,),
+               Container(
+                 height: 417,
+              width: 350
+              ,
+              decoration: BoxDecoration(
+                color: Color(0xffFFFFFF),
+              ),
+                 child: PostWidget(
+                  "assets/images/avater2.png", 
+                  "Alero Samuel",
+                   PicWidget(170, 186, "assets/images/girlpic.png"), 
               PicWidget(84, 57, "assets/images/1.png"), 
               PicWidget(84, 57, "assets/images/2.png"),
               PicWidget(84, 57, "assets/images/3.png"),
               PicWidget(84, 57, "assets/images/4.png"),
               ),
-              SizedBox(height: 30,),
-              PostWidget(
-                "assets/images/avater2.png", 
-                "Alero Samuel",
-                 PicWidget(289, 186, "assets/images/girlpic.png"), 
-              PicWidget(84, 57, "assets/images/1.png"), 
-              PicWidget(84, 57, "assets/images/2.png"),
-              PicWidget(84, 57, "assets/images/3.png"),
-              PicWidget(84, 57, "assets/images/4.png"),
-              ),
-              SizedBox(height: 30,),
-              PostWidget(
-              "assets/images/avatar.png", 
-              "Sandy Williams", 
-              PicWidget(289, 186, "assets/images/girlpic.png"), 
-              PicWidget(84, 57, "assets/images/1.png"), 
-              PicWidget(84, 57, "assets/images/2.png"),
-              PicWidget(84, 57, "assets/images/3.png"),
-              PicWidget(84, 57, "assets/images/4.png"),
-              ),
-              SizedBox(height: 30,),
-               PostWidget(
-                "assets/images/avater2.png", 
-                "Alero Samuel",
-                 PicWidget(289, 186, "assets/images/girlpic.png"), 
-              PicWidget(84, 57, "assets/images/1.png"), 
-              PicWidget(84, 57, "assets/images/2.png"),
-              PicWidget(84, 57, "assets/images/3.png"),
-              PicWidget(84, 57, "assets/images/4.png"),
-              ),
+               ),
 
           ],
         ),

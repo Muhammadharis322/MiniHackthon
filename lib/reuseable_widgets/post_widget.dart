@@ -35,20 +35,28 @@ Widget PostWidget(pic, String txt, Wid1, Wid2, Wid3,Wid4,Wid5) {
           ],
         ),
         SizedBox(
-          height: 20,
+          height: 10,
         ),
         Column(
           children: [
-            Text(
-              "If you are looking for the latest and the most stylish Pakistan lawn collection 2018 with chiffon dupatta, you have come at the right place as Alkaram has brought fully embroidered lawn suits with chiffon and sleeves in its wide range of stitched and unstitched lawn suits.",
-              style: GoogleFonts.raleway(
-                fontSize: 12,
-                fontWeight: FontWeight.w400,
-                color: Color(0xff212224),
+            Container(
+              height: 105,
+              width: 293,
+              child: Text(
+                "If you are looking for the latest and the most stylish Pakistan lawn collection 2018 with chiffon dupatta, you have come at the right place as Alkaram has brought fully embroidered lawn suits with chiffon and sleeves in its wide range of stitched and unstitched lawn suits.",
+                textAlign: TextAlign.center,
+                
+                style: GoogleFonts.raleway(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w400,
+                  color: Color(0xff212224),
+                  letterSpacing: -0.3,
+                  height: 1.5,
+                ),
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 5,
             ),
             Row(
               children: [
@@ -71,7 +79,7 @@ Widget PostWidget(pic, String txt, Wid1, Wid2, Wid3,Wid4,Wid5) {
               ],
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Row(
               children: [
